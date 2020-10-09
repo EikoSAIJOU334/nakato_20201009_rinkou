@@ -4,7 +4,7 @@
 
 ### aim5 is per_control_to_pdf.py
 
-### running command is bellow
+running command is bellow
 
 $ python3 per_control_to_pdf.py
 
