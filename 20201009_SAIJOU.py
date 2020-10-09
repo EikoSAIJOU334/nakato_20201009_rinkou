@@ -222,7 +222,7 @@ plt.xlim(0,500)
 plt.legend(loc='upper right')
 
 
-# In[51]:
+# In[53]:
 
 
 # 更に、「per control」の図と合わせて、「per control」「Jaccard index」の２つの図を横に並べて表示させる。
@@ -265,6 +265,9 @@ ax6.set_xlim(0,500)
 # 表示する
 plt.tight_layout() # 文字の重なりを解消する呪文
 plt.show()
+
+# 保存する
+fig.savefig("rinkou_1009_SAIJOU.pdf")
 
 
 # In[20]:
